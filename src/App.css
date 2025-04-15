@@ -38,7 +38,7 @@
   align-items: center;
   flex-direction: column;
   font-family: "Mukta Malar", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .topHead {
@@ -221,8 +221,8 @@ input[type='checkbox']:checked::before {
   content: '✓';
   position: absolute;
   color: black;
-  font-weight: 600;
-  font-size: 1.05rem;
+  font-weight: 500;
+  font-size: 1rem;
   left: 50%;
   top: -3.5px;
   transform: translateX(-50%) translateY(9%);
@@ -231,7 +231,7 @@ input[type='checkbox']:checked::before {
 
 label {
   color: rgb(26, 25, 25);
-  font-size: 1.25rem;
+  font-size: 1rem;
   letter-spacing: 0.75px;
 }
 
@@ -247,7 +247,7 @@ footer {
   margin: 0.5rem;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.2rem;
   flex-wrap: wrap-reverse;
 }
 
@@ -263,15 +263,30 @@ footer {
 
 }
 
-@media (width < 765px){
+@media only screen and (width < 640px){
   .box{
     width: 80%;
   }
+  
   .container{
     width: 75%;
-    top:8rem;
+    top: 10rem;    
   }
+  
   .topHead{
     font-size: 1rem;
+  }
+
+  .btnArea{
+    gap:0.5rem;
+    padding-top: 0;
+  }
+  .inputCheck {
+    gap: 0.5rem;
+    font-weight: 500;
+  }
+
+  .slider{
+    width: 100%;
   }
 }
