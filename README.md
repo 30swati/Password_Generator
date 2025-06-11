@@ -1,6 +1,6 @@
 <h1> PASSWORD GENERATOR WEBSITE USING REACT </h1>
 <ul>
-  <li>A responsive and user-friendly password generator website built using Reac</li>
+  <li>A responsive and user-friendly password generator website built using React</li>
   <li>Designed to help users create strong and customizable passwords for better online security.</li>
   <li>Ensures a smooth and modern user experience with a clean UI.</li>
 </ul>
